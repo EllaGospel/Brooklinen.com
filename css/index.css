@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fffaf7;
+}
+
+.first-heading{
+    margin-left: 70px;
+    color: white;  
+}
+
+.times-icon{
+    color: white;
+    padding-left: 40px;
+    cursor: pointer;
+}
+
+.first-heading-container{
+    display: flex;
+    background-color:  #283455;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 5px;
+}
+
+.terms-apply-in-the-heading{
+    color: white;
+}
+
+.offer-ends{
+    color: white;
+    padding-left: 450px;
+}
+
+.entire-header{
+ position: fixed;
+ top: 0px;
+ width: 100%;
+ background: inherit;
+ z-index: 10;
+}
+
+.heading-2{
+    display: flex;
+    padding-top: 160px;
+    width: 100%;
+    z-index: 5;
+    overflow: auto;
+}
+
+
+.menubar{
+    display: flex;
+    justify-content: center;
+     
+}
+
+.sva1{
+    margin-right: 400px;
+    margin-top: 30px;
+}
+
+.broklin{
+    margin-top: 30px;
+    margin-right: 350px;
+    color: #283455;
+}
+
+.menu-icons{
+    margin-top: 30px;
+}
+span + span {
+    margin-left: 25px;
+}
+
+.horizontal-line{
+    margin-top: 30px;
+}
+
+
+.heading-2-left{
+    margin-left: 150px;
+}
+
+
+
+.body1{
+    color: #283455;
+    font-size: 58px;
+    font-family: ToledoTS-Bold;
+    margin-left: 210px;
+    margin-top: 50px;
+}
+
+.body2{
+    color:#283455;
+    font-family: BrandonTextWeb-Regular;
+    font-size: 16px;
+    letter-spacing: 0.05px; 
+    margin-top: 40px;   
+}
+
+.body3{
+   border: 1px solid black;
+   border-radius: 15px;
+   width: 60%;
+   padding:15px 30px;
+   cursor: pointer; 
+   margin-top: 55px;
+   color:  #283455;
+   background: none;
+   letter-spacing: 0.05px;
+
+}
+
+.body3:hover{
+    background-color:rgb(97, 97, 143);
+    color: white;
+}
+
+
+.all-sheets{
+    margin-top: 50px;
+    width: 95%;
+    margin-left: 20px;
+    height: 95%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
