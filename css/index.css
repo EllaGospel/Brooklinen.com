@@ -44,6 +44,36 @@ body{
  z-index: 10;
 }
 
+@media(max-width:320px){
+    .first-heading{
+        margin-left: 15px;
+        color: white;  
+    }
+    
+    .offer-ends{
+        color: white;
+        padding-left: 15px;
+    }
+    .times-icon{
+        color: white;
+        padding-left: 10px;
+        cursor: pointer;
+    }
+    .first-heading-container{
+        display: flex;
+        background-color:  #283455;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 5px;
+    }
+    
+    
+    
+    
+    
+    
+}
+
 .heading-2{
     display: flex;
     padding-top: 160px;
@@ -129,6 +159,22 @@ span + span {
     margin-left: 20px;
     height: 95%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
