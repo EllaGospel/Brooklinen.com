@@ -3,8 +3,81 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #fffaf7;
+}
+
 :root{
     --primaryColor:#283455;
+}
+
+.entire-header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background: inherit;
+    z-index: 10;
+}
+.heading-2{
+    color:var(--primaryColor);
+    padding-left: 30px;
+    padding-top: 160px;
+    width: 100%;
+    z-index: 5;
+    overflow: auto;
+}
+.first-heading-container{
+padding-left: 10px;
+background-color:var(--primaryColor);
+color:white;
+text-align: center;
+padding-top: 8px;
+padding-bottom:8px;
+line-height: 1.5;
+}
+/* style for desktop view (screen width >768px) */
+@media screen and (min-width:768px){
+    .first-heading-container{
+        background-color:var(--primaryColor);
+        color:white;
+        display: flex; 
+        padding: 10px;
+        padding-top: 20px;
+        }
+        .first-heading{
+            padding-right: 260px;
+        }
+        .offer-ends-div{
+              width:60% ;
+        }
+        .special-offer-span{
+            font-size: larger;
+        }
+        .times-icon{
+            margin-right: 50px;
+        }
+        
+        .terms-apply-in-the-heading{
+            color: white;
+            font-size: medium;
+        }
+}
+
+.first-heading-div{
+    width: 90%;
+}
+
+.special-offer-span{
+    font-size: small;
+    padding-left: 8px;
+}
+.times-icon +.special-offer-span{
+    margin: 10px;
+}
+
+.terms-apply-in-the-heading{
+    color: rgb(228, 224, 224);
+    font-size: small;
 }
 
 /* style for mobile view view (screen width <767px) */
@@ -28,6 +101,7 @@
         width: 100%;
         color: var(--primaryColor);
         margin-bottom: 18px;
+        margin-top: 30px;
     }
 }
 /* style for desktop view (screen width >768px) */
@@ -52,18 +126,13 @@
         padding-right: 20px;
         display: flex;
         align-items: center;
+        cursor: pointer;
     }
     .menu-icons span{
         margin: 10px;
     }
-
 }
     
-.heading-2{
-color:var(--primaryColor);
-padding-left: 30px;
-
-}
 .body1{
     width:80%
 }
@@ -118,122 +187,6 @@ padding-left: 30px;
         }
 }
 
-
-
-/* body{
-    background-color: #fffaf7;
-}
-
-.first-heading{
-    margin-left: 70px;
-    color: white;  
-}
-
-.times-icon{
-    color: white;
-    padding-left: 40px;
-    cursor: pointer;
-}
-
-.first-heading-container{
-    display: flex;
-    background-color:  #283455;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 5px;
-}
-.terms-apply-in-the-heading{
-    color: white;
-}
-
-.offer-ends{
-    color: white;
-    padding-left: 450px;
-}
-
-.entire-header{
- position: fixed;
- top: 0px;
- width: 100%;
- background: inherit;
- z-index: 10;
-} */
-
-/* .heading-2{
-    display: flex;
-    padding-top: 160px;
-    width: 100%;
-    z-index: 5;
-    overflow: auto;
-} */
-
-/* .menubar{
-    display: flex;
-    justify-content: center;
-     
-}
-
-.sva1{
-    margin-right: 400px;
-    margin-top: 30px;
-}
-
-.broklin{
-    margin-top: 30px;
-    margin-right: 350px;
-    color: #283455;
-}
-
-.menu-icons{
-    margin-top: 30px;
-}
-span + span {
-    margin-left: 25px;
-}
-
-.horizontal-line{
-    margin-top: 30px;
-} */
-
-
-/* .heading-2-left{
-    margin-left: 150px;
-} */
-
-/* .body1{
-    color: #283455;
-    font-size: 58px;
-    font-family: ToledoTS-Bold;
-    margin-left: 210px;
-    margin-top: 50px;
-} */
-
-/* .body2{
-    color:#283455;
-    font-family: BrandonTextWeb-Regular;
-    font-size: 16px;
-    letter-spacing: 0.05px; 
-    margin-top: 40px;   
-} */
-
-/* .body3{
-   border: 1px solid black;
-   border-radius: 15px;
-   width: 60%;
-   padding:15px 30px;
-   cursor: pointer; 
-   margin-top: 55px;
-   color:  #283455;
-   background: none;
-   letter-spacing: 0.05px;
-
-} */
-
-/* .body3:hover{
-    background-color:rgb(97, 97, 143);
-    color: white;
-} */
-
 .mobile-view-bed{
     margin-left: 18px;
 }
@@ -260,25 +213,12 @@ span + span {
     .perfect-sheet-div{
         width:35%;
         margin-left: 200px; 
-        margin-top: 30px;
-         
+        margin-top: 30px;  
     }
     .rest-asured-heading{
         width:45%;
         margin-top: 30px;
     }
-    
-    /* .shop-link-div{
-      
-     }
-     .shop-link{
-        text-decoration: none;
-        cursor: pointer;
-        color:#283455; 
-        width:40%;
-    }
-     */
-     
     
 }
 /* style for mobile view view (screen width <767px) */
@@ -304,21 +244,6 @@ span + span {
 
 
 
-/* .shop-link{
-    text-decoration: none;
-    cursor: pointer;
-    color:#283455 
-} */
-
-
-/* .shop-link-div{
-   border:1px solid rgb(60, 60, 103);
-   border-radius: 15px;
-   padding:10px;
-   width: 40%;
-   margin-top: 20px;
-   margin-left: 30px;
-} */
 
 
 
