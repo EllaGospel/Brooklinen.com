@@ -351,6 +351,19 @@ line-height: 1.5;
     }
     .container-for-bed-bath-lounge-and-decor{
         display: flex;
+        margin-left: 200px;
+    }
+    .shop-bed-image-link-div img{
+        margin:10px
+    }
+    .shop-bath-image-div img{
+        margin: 10px;
+    }
+    .lounge-wear-div{
+        margin: 10px;
+    }
+    .decor-image-div{
+        margin: 10px;
     }
 }
 /* style for mobile view view (screen width <767px) */
