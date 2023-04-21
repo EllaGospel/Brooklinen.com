@@ -58,6 +58,7 @@ line-height: 1.5;
         }
         .times-icon{
             margin-right: 50px;
+            cursor: pointer;
         }
         
         .terms-apply-in-the-heading{
@@ -365,6 +366,29 @@ line-height: 1.5;
     .decor-image-div{
         margin: 10px;
     }
+    .shop-bed-link{
+        text-decoration: none;
+        color: var(--primaryColor);
+        text-align: center;
+    }
+    .shop-bath-link{
+        text-decoration: none;
+        color: var(--primaryColor);
+        text-align:center ;
+    }
+    .shop-lounge-wear-link{
+        text-decoration: none;
+        color: var(--primaryColor);
+        text-align:center ;
+    }
+    .Decor-link{
+        text-decoration: none;
+        color: var(--primaryColor);
+        text-align:center ;
+    }
+    .container-for-bed-bath-lounge-and-decor{
+        margin-top: 50px;
+    }
 }
 /* style for mobile view view (screen width <767px) */
 @media screen and (max-width:767px){
@@ -382,6 +406,35 @@ line-height: 1.5;
     }
     .shop-lounge-wear-and-shop-decor-div{
         display: flex;
+    }
+    .lounge-wear-div{
+        margin-left: 20px;
+    }
+    .decor-image-div{
+        margin-left: 10px;
+    }
+    .shop-lounge-wear-link{
+        text-decoration: none;
+        color: var(--primaryColor);
+    }
+    .shop-lounge-wear-head{
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+    .shop-lounge-wear-prargraph{
+        margin-left: 20px;
+    }
+    .Decor-link{
+        text-decoration: none;
+        color: var(--primaryColor);
+    }
+    .Decor-head{
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    .Decor-paragraph{
+        padding-right: 10px;
+        text-align:center ;
     }
 }
 
