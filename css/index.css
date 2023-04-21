@@ -258,10 +258,13 @@ line-height: 1.5;
     margin-left: 20px;
     margin-bottom: 80px;
     border: 1px solid rgb(52, 52, 93);
-    width: 45%;
+    max-width: 42%;
     padding: 8px 10px;
     border-radius: 15px;
     color: var(--primaryColor);  
+}
+.shop-best-seller{
+    text-align: center;
 }
 .shop-by-category{
     font-family: ToledoTS-Bold;
@@ -269,8 +272,9 @@ line-height: 1.5;
 /* style for desktop view (screen width >768px) */
 @media screen and (min-width:768px){
     .shop-link-div{
-        width: 10%;
+        max-width: 15%;
         margin-left: 180px;
+        padding: 10px 20px
     }
 }
 
@@ -287,22 +291,21 @@ line-height: 1.5;
         font-size: larger;
     }
 }
-
-.shop-bed-image-link-div img{
+ .shop-bed-image-link-div img{
     display: block;
     max-width: 100%;
-}
+} 
 /* style for desktop view (screen width >768px) */
-@media screen and (min-width:768px){
+ @media screen and (min-width:768px){
     .shop-bed-image-link-div .shop-bed-image-for-mobile-view{
         display: none;
     }
     .shop-bath-image-div .shop-bath-image-for-mobile-view{
         display: none;
     }
-}
+} 
 /* style for mobile view view (screen width <767px) */
-@media screen and (max-width:767px){
+ @media screen and (max-width:767px){
     .shop-bed-image-link-div .shop-bed-image-for-desktop-view{
         display: none;
     }
@@ -330,14 +333,14 @@ line-height: 1.5;
         text-decoration: none;
         color: var(--primaryColor);
     }
-}
+} 
 
-.decor-image-div img{
+ .decor-image-div img{
     display: block;
     max-width: 100%;
-}
+} 
 /* style for desktop view (screen width >768px) */
-@media screen and (min-width:768px){
+ @media screen and (min-width:768px){
     .decor-image-div .decor-image-mobile{
         display: none;
     }
@@ -371,6 +374,9 @@ line-height: 1.5;
         color: var(--primaryColor);
         text-align: center;
     }
+    .shop-bed-image-link-div{
+
+    }
     .shop-bath-link{
         text-decoration: none;
         color: var(--primaryColor);
@@ -389,10 +395,10 @@ line-height: 1.5;
     .container-for-bed-bath-lounge-and-decor{
         margin-top: 50px;
     }
-}
+} 
 /* style for mobile view view (screen width <767px) */
-@media screen and (max-width:767px){
-    .decor-image-div .decor-image-desktop{
+ @media screen and (max-width:767px){ 
+     .decor-image-div .decor-image-desktop{
         display: none;
     }
     .decor-image-div.decor-image-mobile{
@@ -404,7 +410,7 @@ line-height: 1.5;
     .shop-lounge-wear .lounge-wear-image-for-mobile{
         display: block;
     }
-    .shop-lounge-wear-and-shop-decor-div{
+     .shop-lounge-wear-and-shop-decor-div{
         display: flex;
     }
     .lounge-wear-div{
@@ -435,9 +441,8 @@ line-height: 1.5;
     .Decor-paragraph{
         padding-right: 10px;
         text-align:center ;
-    }
-}
-
+    }  
+} 
 
 
 
