@@ -5,6 +5,7 @@
 }
 body{
     background-color: #fffaf7;
+    
 }
 
 :root{
@@ -125,6 +126,8 @@ line-height: 1.5;
     }
     .brooklin-div{
         padding-right: 140px;
+        font-family: 'lobster';
+        font-weight: 400;
     }
     
     .menu-icons{
@@ -255,20 +258,24 @@ line-height: 1.5;
 
 .shop-link-div{
     margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 80px;
+    margin-left: 4px;
+    /* margin-bottom: 80px; */
     border: 1px solid rgb(52, 52, 93);
     max-width: 42%;
     padding: 8px 10px;
     border-radius: 15px;
     color: var(--primaryColor);  
 }
-.shop-best-seller{
+/* style for mobile view view (screen width <767px) */
+@media screen and (max-width:767px){
+    .shop-best-seller{
     text-align: center;
 }
-.shop-by-category{
-    font-family: ToledoTS-Bold;
+
 }
+.shop-by-category{
+    font-family: ToledoTS-Bold; 
+    }
 /* style for desktop view (screen width >768px) */
 @media screen and (min-width:768px){
     .shop-link-div{
@@ -287,8 +294,9 @@ line-height: 1.5;
 /* style for desktop view (screen width >768px) */
 @media screen and (min-width:768px){
     .shop-by-category-div{
-        margin-left: 550px;
+        margin-left: 480px;
         font-size: larger;
+        margin-top: 50px;
     }
 }
  .shop-bed-image-link-div img{
@@ -443,6 +451,128 @@ line-height: 1.5;
         text-align:center ;
     }  
 } 
+.as-seen-in-div{
+    background-color: #F9F3ED;
+    padding-left: 30px;
+    margin-top: 40px;
+}
+.as-seen-in-heading{
+    color: var(--primaryColor);
+    padding-top: 40px;
+}
+.sellers{
+    color: var(--primaryColor);
+    margin-left: 40px; 
+    font-size: large; 
+}
+
+/* animination styling */
+.logo-animation-div img{
+    margin: 10px;    
+}
+
+.logo-animation-div{
+    display: flex;
+    overflow: hidden;
+    border: 3px solid #F9F3ED;
+    border-radius: 5px;
+    padding-left: 60px;
+}
+/* style for mobile view view (screen width <767px) */
+@media screen and (max-width:767px){ 
+    /* animation properties */
+.logo-animation{
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    -moz-animation: my-animation 10s linear infinite;
+    -webkit-animation: my-animation 10s linear infinite;
+    animation: my-animation 10s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+    from { -moz-transform: translateX(100%); }
+    to { -moz-transform: translateX(-100%); }
+}
+/* for Chrome */
+@-webkit-keyframes my-animation {
+    from { -webkit-transform: translateX(100%); }
+    to { -webkit-transform: translateX(-100%); }
+}
+@keyframes my-animation {
+    from {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+    to {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+} 
+}
+/* style for desktop view (screen width >768px) */
+@media screen and (min-width:768px){
+    .sellers{
+        display: none;
+    }
+     .as-seen-in-and-shop-our-best-div{
+        display: flex;
+        align-items: center;
+    } 
+    .as-seen-in-heading{
+        padding-left: 80px;
+    }
+    .logo-animation-div{
+        margin-top: 30px;
+    }
+    .shop-best-seller{
+        margin-right: 60px;
+        text-align: center;
+    }
+}
+.shop-our-best-and-shop-our-best-seller-div{
+    display: block;
+}
+/* style for mobile view view (screen width <767px) */
+@media screen and (max-width:767px){ 
+    .shop-our-best-link-div{
+        display: none;
+    }
+}
+/* style for desktop view (screen width >768px) */
+@media screen and (min-width:768px){
+    .shop-link-div{
+        display: none;
+    }
+    .shop-our-best-link{
+        text-decoration: none;
+        color: var(--primaryColor);
+    }
+    .shop-our-best-link-div{
+        margin-left: 60px;
+        font-size: large;
+        font-weight: bold;
+        border: 1px solid #283455;
+        margin-top: 30px;
+        border-radius: 15px;
+        padding: 8px 12px;
+    }
+}
+
+
+
+
+  
+  
+  
+
+
+
+
+
 
 
 
