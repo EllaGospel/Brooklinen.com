@@ -1,4 +1,38 @@
 
+let slidePosition = 1;
+SlideShow(slidePosition);
+
+// forward/Back controls
+function plusSlides(z) {
+  SlideShow(slidePosition += z);
+}
+
+//  images controls
+function currentSlide(z) {
+  SlideShow(slidePosition = z);
+}
+
+function SlideShow(z) {
+  let i;
+  const slides = document.getElementsByClassName("Containers");
+  const circles = document.getElementsByClassName("dots");
+  if (z > slides.length) {slidePosition = 1}
+  if (z < 1) {slidePosition = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < circles.length; i++) {
+      circles[i].className = circles[i].className.replace(" enable", "");
+  }
+  slides[slidePosition-1].style.display = "block";
+  circles[slidePosition-1].className += " enable";
+} 
+
+
+
+
+
+
 
 const countDowndate = new Date("May 5, 2023 23:00 :00").getTime();
 

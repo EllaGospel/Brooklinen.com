@@ -45,8 +45,9 @@ line-height: 1.5;
         padding: 10px;
         padding-top: 20px;
         }
-        .head-icons.search-icon .search-icon-link i.fa-search{
-                      
+        .menubar{
+            padding-top: 25px;
+            padding-bottom: 5px;
         }
         .first-heading{
             padding-right: 260px;
@@ -126,8 +127,9 @@ line-height: 1.5;
     }
     .brooklin-div{
         padding-right: 140px;
-        font-family: 'lobster';
-        font-weight: 400;
+        font-size: larger;
+        /* font-family: 'lobster';
+        font-weight: 400; */
     }
     
     .menu-icons{
@@ -274,7 +276,8 @@ line-height: 1.5;
 
 }
 .shop-by-category{
-    font-family: ToledoTS-Bold; 
+    font-family: ToledoTS-Bold;
+    margin-top: 40px; 
     }
 /* style for desktop view (screen width >768px) */
 @media screen and (min-width:768px){
@@ -325,7 +328,7 @@ line-height: 1.5;
     }
     .shop-bed-div{
         margin-left: 20px;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     .shop-bath-div{
         margin-left: 10px;
@@ -364,7 +367,16 @@ line-height: 1.5;
     .container-for-bed-bath-lounge-and-decor{
         display: flex;
         margin-left: 200px;
+        width: 100%;
     }
+    .pop-up{
+        transition: transform 0.2s ease-in-out;
+    }
+    .pop-up:hover{
+        transform: scale(0.9);
+        transition: transform 0.2s ease-in;
+    }
+    
     .shop-bed-image-link-div img{
         margin:10px
     }
@@ -561,7 +573,270 @@ line-height: 1.5;
         padding: 8px 12px;
     }
 }
+.our-customer-cant-stop-talking-div{
+    background-color: #F9F3ED;
+    margin-top: 50px;
 
+}
+.Our-Customer-Reviews{
+    color: var(--primaryColor);
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Lato';
+    font-weight: 400;
+    /* font-family: 'BrandonTextWeb-Light'; */ 
+}
+.scroll-div{
+    color: var(--primaryColor);
+}
+.cant-stop-talking-about-them{
+    width: 50%;
+    margin-left: 70px;
+    text-align: center;
+    margin-top: 30px;
+}
+.testifier-paragraph{
+    color: var(--primaryColor);
+    margin-top: 40px;
+    padding-left: 30px;
+    width: 90%;
+    text-align: center;
+    line-height: 1.5;  
+}
+.carousel-image{
+    margin-top: 30px;
+    margin-left: 110px;
+}
+
+ /* text carousel styling / Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    background-color:#F9F3ED;
+    color: var(--primaryColor);
+  }
+  
+  /* Make the text,images & star invisible by default */
+  .Containers {
+    display: none;
+  }
+   
+  /* forward & Back buttons */
+  .Back, .forward {
+    cursor: pointer;
+     position: absolute;
+    padding-top:10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom:4px;
+    margin: 12px;
+    color: #283455;
+    font-weight: bold;
+    font-size: medium;
+     transition: 0.4s ease; 
+    border: 1px solid #283455;
+    height: 8vh;
+    border-radius: 50%; 
+    user-select: none;
+  }
+  
+  /* Place the "forward button" to the right */
+  .forward {
+    right: 0;
+    margin-right: 73px;
+    
+  }
+  .Back{
+    margin-left: 73px;
+  }
+  
+  /*when the user hovers,add a blue background with some little opacity */
+   /* .Back:hover, .forward:hover {
+    background-color:rgba(23, 23, 91, 0.5);
+  }  */
+  
+  /* Caption testifier */
+  .testifier {
+    color: var(--primaryColor);
+    margin-left: 130px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  /* Worknumbering (1/3 etc) */
+  .testifier-message {
+    font-size: 14px;
+    padding: 10px 14px;
+    position: absolute;
+    top: 0;
+  }
+  .read-our-review{
+    margin-top: 50px;
+  }
+  .read-our-review-link{
+    text-decoration: none;
+    margin-left: 55px;
+    border: 1px solid  #283455;
+    border-radius: 22px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;background-color: var(--primaryColor);
+    color: white;
+  }
+  
+  /* The circles or bullets and indicators */
+  .dots-div{
+    margin-top: 10px;
+    padding-bottom: 50px;
+  }
+  .dots {
+    cursor: pointer;
+    height: 8px;
+    width: 8px;
+    margin: 0 3px;
+    background-color: rgb(214, 228, 228);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+  }
+  
+  .enable, .dots:hover {
+    background-color: #283455;
+  }
+  
+  /* Faint animation */
+  /* .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.4s;
+    animation-name: fade;
+    animation-duration: 1.4s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .5}
+    to {opacity: 2}
+  }
+  
+  @keyframes fade {
+    from {opacity: .5}
+    to {opacity: 2}
+  } */
+  .slide-and-dot-div{
+    margin-top: 50px;
+    background-color:  #F9F3ED;
+  }
+  .award-winning-sheets{
+    padding-left: 30px;
+    padding-right: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--primaryColor);
+  }
+  .classic-percale-div{
+    color: var(--primaryColor);
+    margin-left:20px;
+  }
+  .luxe-sateen-div{
+    color: var(--primaryColor);
+  }
+  .classic-percale-div-and-luxe-sateen-div{
+    display: flex;
+    margin-top: 40px;
+  }
+  .classic-percale-heading{
+    margin-top: 20px;
+  }
+  .luxe-sateen-heading{
+    margin-top: 20px;
+  }
+  .luxe-sateen-image{
+    margin-left: 10px;
+    height: 230px;
+  }
+  .classic-percale-heading-and-paragraph{
+    width: 85%; 
+  }
+  .luxe-sateen-heading-and-paragraph{
+    margin-left: 19px;
+  }
+  .classic-percale-paragraph{
+    margin-top: 20px;
+  }
+  .luxe-sateen-paragraph{
+    margin-top: 20px;
+  }
+  .shop-classic-percale-link{
+    text-decoration: none;
+    border: 1px solid #283455;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 15px;
+    color: var(--primaryColor);
+  }
+  .shop-classic-percale-link-div{
+    margin-top: 30px;
+  }
+  .shop-luxe-sateen-link{
+    text-decoration: none;
+    border: 1px solid #283455;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 15px;
+    color: var(--primaryColor);
+  }
+  .shop-luxe-sateen-div{
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  .footer-div{
+    background-color:rgb(221, 227, 236);
+     color: #0F1528; 
+    margin-top: 50px;
+  }
+  .get-the-good-sheet-heading{
+    padding-top: 30px;
+    margin-left: 20px;
+    width: 40%;
+  }
+  .get-the-good-sheet-paragraph{
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #666976;
+    font-size: smaller;
+  }
+  .get-the-good-sheet-paragraph2{
+    margin-left: 20px;
+    margin-top: 30px;
+    padding-right: 25px;
+    color: #999a9c;
+    font-size: smaller;
+  }
+  .last-writing-footer1{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    padding-right: 50px;
+    margin-left: 30px;
+  }
+  .last-writing-footer2{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    padding-right: 50px;
+    margin-left: 30px;
+  }
+  .form-div{
+    margin-top: 30px;
+  }
+  
 
 
 
