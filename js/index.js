@@ -3,21 +3,21 @@ let slidePosition = 1;
 SlideShow(slidePosition);
 
 // forward/Back controls
-function plusSlides(z) {
-  SlideShow(slidePosition += z);
+function plusSlides(n) {
+  SlideShow(slidePosition += n);
 }
 
 //  images controls
-function currentSlide(z) {
-  SlideShow(slidePosition = z);
+function currentSlide(n) {
+  SlideShow(slidePosition = n);
 }
 
-function SlideShow(z) {
+function SlideShow(n) {
   let i;
   const slides = document.getElementsByClassName("Containers");
   const circles = document.getElementsByClassName("dots");
-  if (z > slides.length) {slidePosition = 1}
-  if (z < 1) {slidePosition = slides.length}
+  if (n > slides.length) {slidePosition = 1}
+  if (n < 1) {slidePosition = slides.length}
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
   }
