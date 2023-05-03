@@ -687,7 +687,7 @@ line-height: 1.5;
     position: absolute;
     top: 0;
   }
-  .read-our-review{
+  /* .read-our-review{
     margin-top: 50px;
   }
   .read-our-review-link{
@@ -701,7 +701,7 @@ line-height: 1.5;
     padding-right: 40px;
     text-align: center;background-color: var(--primaryColor);
     color: white;
-  }
+  } */
   
   /* The circles or bullets and indicators */
   .dots-div{
