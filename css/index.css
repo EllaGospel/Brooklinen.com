@@ -618,9 +618,9 @@ line-height: 1.5;
   }
   
   /* Make the text,images & star invisible by default */
-  .Containers {
+  /* .Containers {
     display: none;
-  }
+  } */
    
   /* forward & Back buttons */
   .Back, .forward {
