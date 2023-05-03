@@ -1,23 +1,27 @@
 
 let slidePosition = 1;
-SlideShow(slidePosition);
+ SlideShow(slidePosition);
 
-// forward/Back controls
+ // forward/Back controls
 function plusSlides(n) {
-  SlideShow(slidePosition += n);
-}
-
- //  images controls
-  function currentSlide(n) {
-   SlideShow(slidePosition = n);
+    SlideShow(slidePosition += n);
  }
+
+//  images controls
+   function currentSlide(n) {
+    SlideShow(slidePosition = n);
+  }
 
 function SlideShow(n) {
   let i;
   const slides = document.getElementsByClassName("Containers");
   const circles = document.getElementsByClassName("dots");
-  if (n > slides.length) {slidePosition = 1}
-  if (n < 1) {slidePosition = slides.length}
+  if (n > slides.length) {
+    slidePosition = 1;
+  }
+  if (n < 1) {
+    slidePosition = slides.length;
+  }
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
   }
