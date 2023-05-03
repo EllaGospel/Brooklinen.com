@@ -618,9 +618,9 @@ line-height: 1.5;
   }
   
   /* Make the text,images & star invisible by default */
-  /* .Containers {
+  .Containers {
     display: none;
-  } */
+  } 
    
   /* forward & Back buttons */
   .Back, .forward {
@@ -708,7 +708,7 @@ line-height: 1.5;
   }
   
   /* Faint animation */
-  /* .fade {
+   .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.4s;
     animation-name: fade;
@@ -723,7 +723,7 @@ line-height: 1.5;
   @keyframes fade {
     from {opacity: .5}
     to {opacity: 2}
-  } */
+  } 
   .slide-and-dot-div{
     margin-top: 50px;
     background-color:  #F9F3ED;
