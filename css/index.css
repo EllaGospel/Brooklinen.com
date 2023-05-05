@@ -727,7 +727,7 @@ line-height: 1.5;
   @keyframes fade {
     from {opacity: .5}
     to {opacity: 2}
-  }  */
+  } */
   .slide-and-dot-div{
     margin-top: 50px;
     background-color:  #F9F3ED;
@@ -753,6 +753,7 @@ line-height: 1.5;
   }
   .classic-percale-heading{
     margin-top: 20px;
+    width: 70%;
   }
   .luxe-sateen-heading{
     margin-top: 20px;
@@ -761,17 +762,16 @@ line-height: 1.5;
     margin-left: 10px;
     height: 230px;
   }
-  .classic-percale-heading-and-paragraph{
-    width: 85%; 
-  }
   .luxe-sateen-heading-and-paragraph{
-    margin-left: 19px;
+    margin-left: 10px;
   }
   .classic-percale-paragraph{
     margin-top: 20px;
+    width: 75%;
   }
   .luxe-sateen-paragraph{
     margin-top: 20px;
+    width: 80%;
   }
   .shop-classic-percale-link{
     text-decoration: none;
@@ -782,6 +782,7 @@ line-height: 1.5;
     padding-left: 10px;
     border-radius: 15px;
     color: var(--primaryColor);
+    font-weight: bold;
   }
   .shop-classic-percale-link-div{
     margin-top: 30px;
@@ -795,10 +796,15 @@ line-height: 1.5;
     padding-left: 10px;
     border-radius: 15px;
     color: var(--primaryColor);
+    font-weight: bold;
   }
   .shop-luxe-sateen-div{
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 8px;
+  }
+  .classic-percalye-div-and-luxe-sateen-div{
+    display: flex;
+    margin-top: 40px;
   }
   .footer-div{
     background-color:rgb(221, 227, 236);
@@ -823,23 +829,88 @@ line-height: 1.5;
     color: #999a9c;
     font-size: smaller;
   }
+  .form-email{
+    border: 1px solid white;
+    border-radius: 20px;
+    color:rgb(117, 117, 117);
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 90px;
+    cursor: pointer;
+  }
+  .form-div{
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  .email-and-arror{
+    display: flex;
+    position: relative;
+  }
+  .arror{
+    position: absolute;
+    top:40%;
+    transform:translateX(-40%);
+    right: 40px;
+    cursor: pointer;   
+  }
+   .arror-button{
+    border: none;
+  }
+  /* .arror-button:focus{
+    border: 1px solid #283455;
+    outline: #283455;
+  } */ 
   .last-writing-footer1{
     display: flex;
     margin-top: 40px;
     justify-content: space-between;
-    padding-right: 50px;
-    margin-left: 30px;
+    padding-right: 120px;
+    margin-left: 20px;
   }
   .last-writing-footer2{
     display: flex;
     margin-top: 20px;
     justify-content: space-between;
-    padding-right: 50px;
-    margin-left: 30px;
+    padding-right: 140px;
+    margin-left: 20px;
+    color: rgb(102, 127, 164);
   }
-  .form-div{
-    margin-top: 30px;
+  .last-writing-footer3{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    margin-left: 20px;
+    color: rgb(102, 127, 164)
   }
+  .returns-and-exchanges{
+    padding-right: 20px;
+  }
+  .brooklinen-rewards{
+    padding-right: 40px;
+  }
+  .last-writing-footer5{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 18px;
+    color: rgb(102, 127, 164)
+
+  }
+  .tread-hospitality{
+    width: 40%;
+    margin-left: 50px;
+  }
+  .last-writing-footer6{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: rgb(102, 127, 164)
+  }
+  .contact{
+    margin-left: 60px;
+  }
+ 
+  
   
 
 
