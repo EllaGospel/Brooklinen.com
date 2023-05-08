@@ -836,7 +836,7 @@ line-height: 1.5;
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-right: 90px;
+    padding-right: 100px;
     cursor: pointer;
   }
   .form-div{
@@ -851,7 +851,7 @@ line-height: 1.5;
     position: absolute;
     top:40%;
     transform:translateX(-40%);
-    right: 40px;
+    right: 60px;
     cursor: pointer;   
   }
    .arror-button{
@@ -864,50 +864,96 @@ line-height: 1.5;
   .last-writing-footer1{
     display: flex;
     margin-top: 40px;
-    justify-content: space-between;
-    padding-right: 120px;
     margin-left: 20px;
+  }
+  .about-link{
+    text-decoration: none;
+    color:  rgb(102, 127, 164);
+  }
+  .Support{
+    margin-left: 100px;
   }
   .last-writing-footer2{
     display: flex;
     margin-top: 20px;
-    justify-content: space-between;
-    padding-right: 140px;
     margin-left: 20px;
     color: rgb(102, 127, 164);
+  }
+  .FAQ{
+    margin-left: 80px;
+  }
+  .faq-link{
+    text-decoration: none;
+    color:  rgb(102, 127, 164);  
   }
   .last-writing-footer3{
     display: flex;
     margin-top: 20px;
-    justify-content: space-between;
     margin-left: 20px;
     color: rgb(102, 127, 164)
   }
+  .press-link{
+    text-decoration: none;
+    color:  rgb(102, 127, 164);
+  }
   .returns-and-exchanges{
-    padding-right: 20px;
+    margin-left: 105px;
   }
-  .brooklinen-rewards{
-    padding-right: 40px;
+  .returns-and-exchanges-link{
+    text-decoration: none;
+    color:  rgb(102, 127, 164);
   }
-  .last-writing-footer5{
+  .our-stores-link{
+    text-decoration: none;
+    color:  rgb(102, 127, 164);
+  }
+  .last-writing-footer4{
     display: flex;
     margin-top: 20px;
     margin-left: 18px;
     color: rgb(102, 127, 164)
+  }
 
+  .brooklinen-rewards{
+    margin-left: 72px;
   }
-  .tread-hospitality{
-    width: 40%;
-    margin-left: 50px;
+  .brooklinen-rewards-link{
+    text-decoration: none;
+    color:  rgb(102, 127, 164);
   }
-  .last-writing-footer6{
+  .last-writing-footer5{
     display: flex;
     margin-top: 20px;
-    margin-left: 20px;
+  }
+  .care-guide-link{
+    margin-right: 68px;
+    margin-left: 16px;
+    text-decoration: none;
+    color:  rgb(102, 127, 164);
+  }
+  .tread-hospitality-link{
+    width:40%;
+    text-decoration: none;
+    color:  rgb(102, 127, 164);
+  }
+  
+    .last-writing-footer6{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 16px;
     color: rgb(102, 127, 164)
   }
   .contact{
-    margin-left: 60px;
+    margin-left: 88px;
+  }
+  .last-writing-footer7{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 12px;
+    color: rgb(102, 127, 164)
+  }
+  .careers{
+    margin-left: 35px;
   }
  
   
