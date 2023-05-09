@@ -28,13 +28,15 @@ body{
     overflow: auto;
 }
 .first-heading-container{
-padding-left: 25px;
+padding-left:25px;
+width:90%;
 background-color:var(--primaryColor);
 color:white;
 padding-top: 8px;
 padding-bottom:8px;
-line-height: 1.5;
+/* line-height: 1.5; */
 }
+
 /* style for desktop view (screen width >768px) */
 @media screen and (min-width:768px){
     .first-heading-container{
@@ -69,7 +71,7 @@ line-height: 1.5;
 }
 
 .first-heading-div{
-    width: 90%;
+    width: 70%;
 }
 
 .special-offer-span{
@@ -83,6 +85,7 @@ line-height: 1.5;
 .terms-apply-in-the-heading{
     color: rgb(228, 224, 224);
     font-size: small;
+    margin-left: 70px;
 }
 
 /* style for mobile view view (screen width <767px) */
@@ -335,7 +338,10 @@ line-height: 1.5;
     }
     .shop-bed-div{
         margin-left: 20px;
-        margin-top: 40px;
+        margin-top:7px;
+    }
+    .shop-bed{
+        margin-bottom: 8px;
     }
     .shop-bath-div{
         margin-left: 10px;
@@ -987,6 +993,10 @@ line-height: 1.5;
   }
   .copywrite-div,div{
     gap: 10px;
+  }
+  .shop-bath{
+    margin-top: 20px;
+    margin-left: 20px;
   }
   
  
