@@ -1,4 +1,10 @@
 
+
+const footercopyWrite = document.getElementById("copywrite").write(new Date().getFullYear())
+
+
+
+
 let slidePosition = 1;
  SlideShow(slidePosition);
 
