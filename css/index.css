@@ -84,7 +84,7 @@ padding-bottom:8px;
 
 .terms-apply-in-the-heading{
     color: rgb(228, 224, 224);
-    font-size: small;
+    font-size: medium;
     margin-left: 70px;
 }
 
@@ -516,9 +516,9 @@ padding-bottom:8px;
     -moz-transform: translateX(100%);
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
-    -moz-animation: my-animation 10s linear infinite;
-    -webkit-animation: my-animation 10s linear infinite;
-    animation: my-animation 10s linear infinite;
+    -moz-animation: my-animation 8s linear infinite;
+    -webkit-animation: my-animation 8s linear infinite;
+    animation: my-animation 8s linear infinite;
 }
 
 /* for Firefox */
