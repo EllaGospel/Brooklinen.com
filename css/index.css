@@ -208,7 +208,7 @@ padding-bottom:8px;
 }
 
 .mobile-view-bed{
-    margin-left: 18px;
+    margin-left: 30px;
 }
 
 .Hero-image img {
@@ -255,7 +255,7 @@ padding-bottom:8px;
         margin-top: 30px;
         color:#283455;
         width: 80%;
-        padding-left: 25px;          
+        padding-left:25px;          
 }
 
 .perfect-sheet-div{
@@ -333,6 +333,7 @@ padding-bottom:8px;
     }
     .shop-bed-and-shop-bath-div{
         display: flex;
+        margin-left: 30px;
     }
     .shop-bed-div{
         margin-left: 20px;
@@ -364,6 +365,9 @@ padding-bottom:8px;
     }
     .shop-bath{
       text-align: center;
+    }
+    .shop-lounge-wear-and-shop-decor-div{
+      margin-left: 30px;
     }
 } 
 
@@ -414,9 +418,6 @@ padding-bottom:8px;
         text-decoration: none;
         color: var(--primaryColor);
         text-align: center;
-    }
-    .shop-bed-image-link-div{
-
     }
     .shop-bath-link{
         text-decoration: none;
@@ -498,6 +499,10 @@ padding-bottom:8px;
     margin-left: 40px; 
     font-size: large; 
 }
+/* style for desktop view (screen width >768px) */
+@media screen and (min-width:768px){
+  .logo-animation-div
+}
 
 /* animination styling */
 .logo-animation-div img{
@@ -518,9 +523,9 @@ padding-bottom:8px;
     -moz-transform: translateX(100%);
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
-    -moz-animation: my-animation 8s linear infinite;
-    -webkit-animation: my-animation 8s linear infinite;
-    animation: my-animation 8s linear infinite;
+    -moz-animation: my-animation 10s linear infinite;
+    -webkit-animation: my-animation 10s linear infinite;
+    animation: my-animation 10s linear infinite;
 }
 
 /* for Firefox */
