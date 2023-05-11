@@ -29,7 +29,6 @@ body{
 }
 .first-heading-container{
 padding-left:25px;
-width:90%;
 background-color:var(--primaryColor);
 color:white;
 padding-top: 8px;
@@ -282,8 +281,7 @@ padding-bottom:8px;
 @media screen and (max-width:767px){
     .shop-best-seller{
     text-align: center;
-}
-
+  }
 }
 .shop-by-category{
     font-family: ToledoTS-Bold;
@@ -338,13 +336,11 @@ padding-bottom:8px;
     }
     .shop-bed-div{
         margin-left: 20px;
-        margin-top:7px;
+        margin-top:px;
     }
     .shop-bed{
         margin-bottom: 8px;
-    }
-    .shop-bath-div{
-        margin-left: 10px;
+        text-align-last: center;
     }
     .Upgrades-paragrahy{
         padding-right: 20px;
@@ -360,8 +356,14 @@ padding-bottom:8px;
     .Decor-div{
         margin-top: 20px;
     }
-    .container-for-bed-bath-lounge-and-decor{
-        margin-left: 20px;
+    .shop-comforters-image-for-mobile-view{
+      margin-top: 5px;
+    } 
+    .shop-comforters{
+      text-align: center;
+    }
+    .shop-bath{
+      text-align: center;
     }
 } 
 
