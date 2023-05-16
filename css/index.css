@@ -606,6 +606,15 @@ padding-bottom:8px;
     .shop-our-best-link-div{
         display: none;
     }
+    .cant-stop-talking-about-it-desktop{
+      display: none;
+    }
+    .our-customer-review-desktop{
+      display: none;
+    }
+    .read-our-review-desktop-view{
+      display: none;
+    }
 }
 /* style for desktop view (screen width >768px) */
 @media screen and (min-width:768px){
@@ -1031,6 +1040,63 @@ padding-bottom:8px;
   .shop-bath{
     margin-left: 20px;
   }
+  /* style for  desktop carousel design */
+  /* style for desktop view (screen width >768px) */
+ @media screen and (min-width:768px){
+   .desktop-carousel-design-div{
+    display: flex;
+  }
+  .dots-div{
+    display: none;
+  } 
+  .Our-Customer-Reviews{
+    display: none;
+  }
+  .cant-stop-talking-about-them{
+    display: none;
+  }
+  .testifier-paragraph{
+    font-size: xx-large;
+    font-weight: bold;
+    line-height: 0.9;
+  }
+  .cant-stop-talking-about-it-desktop{
+    color: var(--primaryColor);
+    padding-left: 40px;
+    margin-top: 30px;
+  }
+  .Containers{
+    background-color: white;
+    margin-top: 80px;
+    width:45%;  
+    margin-right:200px;
+    border-radius: 20px;
+  }
+  .testifier{
+    padding-bottom: 20px;
+  }
+  .read-our-review{
+    display: none;
+  }
+
+  .our-customer-review-desktop{
+    width: 60%;
+    margin-top: 130px;
+    margin-left: 200px;  
+  }
+  .read-our-review-desktop-view{
+    margin-left: 140px;
+    margin-top: 50px;
+  }
+  .slideshow-container{
+    position: relative;
+  }
+  .Back, .forward{
+    position: absolute;
+    top: 90%;
+    margin-top: 1480px;
+  }
+ }
 
   
   
