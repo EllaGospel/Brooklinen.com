@@ -1182,11 +1182,17 @@ padding-bottom:8px;
     border-radius: 15px;
     color: var(--primaryColor);
     font-weight: bold;
-  }
-  .footer-1-and-2-div{
+   }
+   .footer-1-and-2-div{
     display: flex;
+   }
+   .pop-up{
+    transition: transform 0.2s ease-in-out;
   }
-
+   .pop-up:hover{
+    transform: scale(0.9);
+    transition: transform 0.2s ease-in;
+  }
 
  }
 
