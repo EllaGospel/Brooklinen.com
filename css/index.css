@@ -940,11 +940,11 @@ padding-bottom:8px;
     border: 1px solid #283455;
     outline: #283455;
   } */ 
-  .last-writing-footer1{
+  /* .last-writing-footer1{
     display: flex;
     margin-top: 40px;
     margin-left: 20px;
-  }
+  } */
   .about-link{
     text-decoration: none;
     color:  rgb(102, 127, 164);
@@ -1034,6 +1034,11 @@ padding-bottom:8px;
   .careers{
     margin-left: 35px;
   }
+  /* beginning of new css style for about and support  */
+  .general-div-for-about-and-support{
+    display: flex;
+  }
+
   .social-media{
     display: flex;
     margin-top: 30px;
@@ -1193,7 +1198,14 @@ padding-bottom:8px;
     transform: scale(0.9);
     transition: transform 0.2s ease-in;
   }
-
+  .about-1-and-2{
+    display: flex;
+    gap:50px;
+  }
+  .support-1-and-2{
+    display: flex;
+  }
+  
  }
 
   
