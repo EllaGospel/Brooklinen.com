@@ -1,5 +1,5 @@
-const year = new Date().getFullYear();
-document.getElementById("year").innerHTML = year;
+// const year = new Date().getFullYear();
+// document.getElementById("year").innerHTML = year;
 
 
 

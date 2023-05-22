@@ -945,25 +945,40 @@ padding-bottom:8px;
     margin-top: 40px;
     margin-left: 20px;
   } */
+  .about{
+    margin-bottom: 10px;
+  }
+  .about-us{
+    margin-bottom: 10px;
+  }
   .about-link{
     text-decoration: none;
     color:  rgb(102, 127, 164);
   }
-  .Support{
-    margin-left: 100px;
-  }
-  .last-writing-footer2{
+    .last-writing-footer2{
     display: flex;
     margin-top: 20px;
     margin-left: 20px;
     color: rgb(102, 127, 164);
   }
   .FAQ{
-    margin-left: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   .faq-link{
     text-decoration: none;
     color:  rgb(102, 127, 164);  
+  }
+  .contact-us{
+    text-decoration: none;
+    color:  rgb(102, 127, 164);
+  }
+  .contact{
+    margin-bottom: 10px;
+  }
+  .career{
+    text-decoration: none;
+    color:  rgb(102, 127, 164);
   }
   .last-writing-footer3{
     display: flex;
@@ -971,16 +986,44 @@ padding-bottom:8px;
     margin-left: 20px;
     color: rgb(102, 127, 164)
   }
+  .press{
+    margin-bottom: 10px;
+  }
   .press-link{
     text-decoration: none;
     color:  rgb(102, 127, 164);
   }
+  .care-guide{
+    margin-bottom: 15px;
+  }
+  .care-guide{
+    text-decoration: none;
+    color:  rgb(102, 127, 164); 
+  }
+  .review{
+    margin-bottom: 10px;
+  }
+  .brookliving{
+    margin-bottom: 30px;
+    
+  }
+  .brookliving-blog{
+    text-decoration: none;
+    color:  rgb(102, 127, 164);
+  }
+  .reviews{
+    text-decoration: none;
+    color:  rgb(102, 127, 164);
+  }
   .returns-and-exchanges{
-    margin-left: 105px;
+    margin-bottom: 10px;
   }
   .returns-and-exchanges-link{
     text-decoration: none;
     color:  rgb(102, 127, 164);
+  }
+  .our-stores{
+    margin-bottom: 10px;
   }
   .our-stores-link{
     text-decoration: none;
@@ -992,38 +1035,33 @@ padding-bottom:8px;
     margin-left: 18px;
     color: rgb(102, 127, 164)
   }
-
   .brooklinen-rewards{
-    margin-left: 72px;
+    margin-bottom: 10px;
   }
   .brooklinen-rewards-link{
     text-decoration: none;
     color:  rgb(102, 127, 164);
+  }
+  .support-div{
+    margin-left: 30px;
   }
   .last-writing-footer5{
     display: flex;
     margin-top: 20px;
   }
   .care-guide-link{
-    margin-right: 68px;
-    margin-left: 16px;
     text-decoration: none;
     color:  rgb(102, 127, 164);
   }
   .tread-hospitality-link{
-    width:40%;
     text-decoration: none;
     color:  rgb(102, 127, 164);
   }
-  
     .last-writing-footer6{
     display: flex;
     margin-top: 20px;
     margin-left: 16px;
     color: rgb(102, 127, 164)
-  }
-  .contact{
-    margin-left: 88px;
   }
   .last-writing-footer7{
     display: flex;
@@ -1031,12 +1069,12 @@ padding-bottom:8px;
     margin-left: 12px;
     color: rgb(102, 127, 164)
   }
-  .careers{
-    margin-left: 35px;
-  }
+  
   /* beginning of new css style for about and support  */
   .general-div-for-about-and-support{
     display: flex;
+    margin-left: 25px;
+    margin-top: 30px;
   }
 
   .social-media{
