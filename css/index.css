@@ -1004,7 +1004,7 @@ padding-bottom:8px;
     margin-bottom: 10px;
   }
   .brookliving{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     
   }
   .brookliving-blog{
@@ -1079,7 +1079,7 @@ padding-bottom:8px;
 
   .social-media{
     display: flex;
-    margin-top: 30px;
+    margin-top: 5px;
     margin-left: 20px;
   }
   .social-media, div{
@@ -1249,9 +1249,40 @@ padding-bottom:8px;
     transform:translateX(-40%);
     right: 20px;
     cursor: pointer;
-    padding-right: 290px;   
+    padding-right: 225px;   
   }
-  
+  .social-media{
+    margin-top: 20px;
+  }
+  .about{
+    padding-right: 250px;
+  }
+  .contact{
+    margin-top: 15px;
+    margin-left: 40px;
+  }
+  .support-div{
+    padding-right: 100px;
+  }
+  .tread-hospitality{
+    margin-left: 20px;
+  }
+  .careers{
+    margin-left: 40px;
+    margin-top: 30px;
+  }
+  .about-1-and-2, p{
+    margin-top: 20px;
+  }
+  .get-the-good-sheet-paragraph2{
+    width: 60%;
+  }
+  .footer-div{
+    padding-left: 30px;
+  }
+  .FAQ{
+    margin-top: 25px;
+  }
  }
 
   
