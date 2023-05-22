@@ -1243,6 +1243,14 @@ padding-bottom:8px;
   .support-1-and-2{
     display: flex;
   }
+  .arror{
+    position: absolute;
+    top:40%;
+    transform:translateX(-40%);
+    right: 20px;
+    cursor: pointer;
+    padding-right: 290px;   
+  }
   
  }
 
